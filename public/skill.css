@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    scrollbar-color: deeppink;
+}
+.skill-contrenar{
+    height: auto;
+    width: 90vw;
+    background: linear-gradient(to left,darkred,deeppink,maroon);
+    display: block;
+    margin: auto;
+    border: 2px solid blue;
+    padding: 10px;
+}
+.skill{
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    border: 2px solid gold;
+    
+}
+.skill img{
+    width: 300px;
+    color: blue;
+    margin-bottom: 2rem;
+
+}
+.bar{
+    height: 20px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    color: blue;
+    padding: 2px;
+}
+.bar-color{
+    height: 19px;
+    background: linear-gradient(to right, rgb(195, 30, 30), rgb(165, 165, 25), rgb(17, 158, 17));
+}
+.skill-value h1{
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+    color: gold;
+}
+@media  screen and (max-width:500px) {
+    .skill-contrenar{
+        display: block;
+        margin: auto;
+        width: 96vw;
+        margin-top: 1rem;
+        padding: 0px;
+    }
+    .skill{
+        display: block;
+        width: 95vw;
+        padding: 2px;
+        margin: auto;
+    }
+    .skill img{
+        width: 90vw;
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .bar{
+        margin-left: 10px;
+    }
+    .skill  h3{
+        color: blue;
+        margin-left: 10px;
+    }
+    .skill-add .skill-value{
+        color: darkblue;
+    }
+
+}

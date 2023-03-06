@@ -1,0 +1,18 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "This Is My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "node": "node app.ja",
+    "dev": "nodemon app.js hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}

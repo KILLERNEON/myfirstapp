@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con img{
+    width: 350px;
+}
+body{
+    background-color: black;
+}
+.service-contrenar{
+    width: 80vw;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    border: 2px solid blue;
+    background-color: black;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.con{
+    height: auto;
+    padding: 10px;
+    width: 99%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    margin: 1rem;    
+}
+.con{
+    margin-left:1rem ;
+}
+#my-button{
+background-color: blue;
+color: white;
+
+}
+#my-button a{
+text-decoration: none;
+color: white;
+}
+#my-button:hover{
+background-color:white ;
+border: 2px solid blue;
+}
+#my-button a:hover{
+color: blue;
+}
+#my-button{
+color: white;
+background-color: blue;
+margin-left: 10px;
+
+}
+.container-fluid a{
+color: blue;
+
+}
+.navbar-brand{
+animation: onme 20s ease-in-out infinite;
+background-color: black;
+padding: 5px;
+padding-left: 10px;
+padding-right:10px ;
+border: 2px solid blue;
+}
+.con .content p{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con .content h2{
+    color: chartreuse;
+}
+.con .content h3{
+    color: blue;
+}
+
+.navbar-brand {
+color: blue;
+}
+
+@keyframes onme {
+0%{
+    color: gold;
+}
+5%{
+    color: red;
+}
+10%{
+    color: blue;
+}
+15%{
+    color: blue;
+}
+20%{
+    color: blueviolet;
+}
+25%{
+    color: brown;
+}
+30%{
+    color: deeppink;
+}
+35%{
+    color: yellow;
+}
+40%{
+    color: chartreuse;
+}
+45%{
+    color: crimson;
+}
+50%{
+    color: darkblue;
+}
+55%{
+    color: darkgoldenrod;
+}
+60%{
+    color: maroon;
+}
+65%{
+    color: magenta;
+}
+70%{
+    color: wheat;
+}
+75%{
+    color: rgb(41, 4, 69);
+}
+80%{
+    color: rgb(118, 71, 10);
+}
+85%{
+    color: darkorange;
+}
+90%{
+    color: darkred;
+}
+95%{
+    color: firebrick;
+}
+100%{
+    color: violet;
+}
+}
+@media screen and (max-width:500px) {
+    .service-contrenar{
+        width: 95vw;
+        display: block;
+        margin: auto;
+        padding: 0px;
+        margin-top: 1rem;
+    }
+    .con{
+        width: 95%;
+        display: block;
+        margin: auto;
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .content{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 5px;
+        color: aliceblue;
+    }
+    .service-contrena .con img{
+        width: 340px;
+        margin-left: -10px;
+    }    
+}

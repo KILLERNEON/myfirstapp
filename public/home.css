@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.text{
+    height: auto;
+    display: block;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text h1{
+    color: gold;
+    font-size: 2rem;
+}
+.text h3{
+    color: blue;
+    font-size: 1.5rem;
+
+}
+.text h4{
+    color: blue;
+    font-size: 1.3rem;
+}
+.shadow{
+    height: 50vh;
+    width: 100%;
+    background-color: aliceblue;
+    opacity: 0.10;
+    position: absolute;
+    top: 0;
+}
+#grow{
+    color: deeppink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#grow2{
+    color: rgb(106, 0, 48);
+}
+/* nav design */
+#nav-btn{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 2px 1px 0.1px gray;
+}
+#nav-btn{
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

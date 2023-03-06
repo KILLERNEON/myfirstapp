@@ -1,0 +1,82 @@
+footer{
+   background: linear-gradient(to right , black 5% ,darkblue 40%,black);
+   width: 95%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   border: 2px solid blue;
+   box-sizing: border-box;
+   padding: 20px;
+   margin-top: 3rem;
+}
+footer h3{
+    color: blue;
+}
+footer h2{
+    color:gold ;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+}
+footer h4{
+    color: white;
+}
+footer .contrener img{
+    margin-right: 20px;
+    width: 40px;
+}
+footer .contrener{
+    display: block;
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 45%;
+}
+footer .contrener h4 img{
+    margin-top: -9px;
+    width: 30px;
+}
+footer .contrener h4{
+    color: #fe6733;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+footer .contrener h2{
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width:800px) {
+    footer{
+        display: block;
+        margin: auto;
+        width: 98vw;
+    }
+    footer .contrener{
+        width: 95%;
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border: 2px solid deeppink;
+    }
+}

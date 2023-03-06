@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINGUP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="header.ccs">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="singup.css">
+</head>
+<style>
+
+}
+</style>
+<body>
+    {{>nav}}
+    <div class="form">
+      <form action="">
+        <div class="email">
+          <label for="">NAME:</label>   
+          <input type="text" id="name" placeholder="enter your  name">
+        </div>
+        <div class="email">
+          <label for="">E-MAIL:</label>
+          <input type="email" id="email" placeholder="enter your mail">
+        </div>
+        <div class="email">
+          <label for="">PHONE:</label>
+          <input type="tel" id="phone" placeholder="enter your phone No.">
+        </div>
+        <div class="email">
+          <label for="">GENDER:</label> <br>
+          <label for="">MALE:
+          </label><input type="radio" id="gender" name="gender" >
+          <label for="">FEMALE:</label><input type="radio" id="gender" name="gender">
+          <label for="">OTHERS:</label><input type="radio" id="gender" name="gender">
+        </div>
+        <a href="/"><button id="sbtn" type="submit">SUBMIT</button></a>
+        <button type="reset">RESET</button>
+      </form>
+    </div>
+    {{>footer}}
+</body>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>

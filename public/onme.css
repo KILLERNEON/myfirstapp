@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+#my-button{
+    color: white;
+    background-color: blue;
+    margin-left: 10px;
+
+}
+.container-fluid a{
+  color: blue;
+  
+}
+.navbar-brand{
+    animation: onme 20s ease-in-out infinite;
+    background-color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right:10px ;
+    border: 2px solid blue;
+}
+
+.navbar-brand {
+    color: blue;
+}
+#my-button:hover{
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+#my-button a{
+    color: white;
+    text-decoration: none;
+}
+#my-button a:hover{
+    color: blue;
+}
+@keyframes onme {
+    0%{
+        color: gold;
+    }
+    5%{
+        color: red;
+    }
+    10%{
+        color: blue;
+    }
+    15%{
+        color: blue;
+    }
+    20%{
+        color: blueviolet;
+    }
+    25%{
+        color: brown;
+    }
+    30%{
+        color: deeppink;
+    }
+    35%{
+        color: yellow;
+    }
+    40%{
+        color: chartreuse;
+    }
+    45%{
+        color: crimson;
+    }
+    50%{
+        color: darkblue;
+    }
+    55%{
+        color: darkgoldenrod;
+    }
+    60%{
+        color: maroon;
+    }
+    65%{
+        color: magenta;
+    }
+    70%{
+        color: wheat;
+    }
+    75%{
+        color: rgb(41, 4, 69);
+    }
+    80%{
+        color: rgb(118, 71, 10);
+    }
+    85%{
+        color: darkorange;
+    }
+    90%{
+        color: darkred;
+    }
+    95%{
+        color: firebrick;
+    }
+    100%{
+        color: violet;
+    }
+}
